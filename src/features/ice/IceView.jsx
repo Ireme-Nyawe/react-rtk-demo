@@ -1,9 +1,9 @@
 function IceView() {
     return (
       <div>
-        <h2>Number of iceCreams-</h2>
-        <button>order a iceCream</button>
-        <button>restock iceCreams</button>
+        <h2>Number of cakes-</h2>
+        <button>order a cake</button>
+        <button>restock cakes</button>
       </div>
     );
   }

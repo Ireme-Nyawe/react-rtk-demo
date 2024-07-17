@@ -1,8 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
-import logger from "redux-logger";
 import cakeReducer from "../features/cake/cakeSlice";
-import iceReducer from "../features/iceCream/iceCreamSlice";
-import userReducer from "../features/user/userSlice";
+import iceReducer from "../features/ice/iceSlice";
+import userReducer from "../features/users/userSlice";
 const store = configureStore({
   reducer: {
     cake: cakeReducer,
