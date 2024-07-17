@@ -5,7 +5,7 @@ import userReducer from "../features/users/userSlice";
 const store = configureStore({
   reducer: {
     cake: cakeReducer,
-    iceCreame: iceReducer,
+    iceCream: iceReducer,
     user: userReducer,
   },
   //   middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger),
