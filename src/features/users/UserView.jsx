@@ -11,7 +11,7 @@ function UserView() {
     <div>
       <h2>List of users</h2>
       {user.loading && <div>loading ...</div>}
-      {!user.loading && user.error ? <div>error: {user.error.message}</div> : null}
+      {!user.loading && user.error!='' ? <div>error: {user.error}</div> : null}
       {!user.loading && user.users.length ? (
         <ul>
           {user.users.map((user) => (
